@@ -1,7 +1,7 @@
 /** 
 * SOLUZIONE DELL'ESERCIZIO: 
 * Scrivere un algoritmo che visualizza in ordine decrescente i numeri naturali da 30 a 15
-* CODEPEN: https://codepen.io/marcoski/pen/jJwaqb
+* CODEPEN: https://codepen.io/marcoski/pen/MxoObJ
 */
 // VERSIONE WHILE DO
 console.log('VERSIONE WHILE')
