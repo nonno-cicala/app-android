@@ -6,11 +6,11 @@
 
 #### 1.1 Basi del linguaggio
 
-- Variabili let, const
-- Tipi di dato primitivi
-- Strutture di controllo (if, else if, else, while, do while, for)
+- ~~Variabili let, const~~ 06/03/2019 
+- ~~Tipi di dato primitivi~~ 06/03/2019
+- ~~Strutture di controllo (if, else if, else, while, do while, for)~~ 06/03/2019
 
-#### 1.2 Traduzione esempi prima lezione da pseudocodice a Javascript
+#### ~~1.2 Traduzione esempi prima lezione da pseudocodice a Javascript~~ 06/03/2019
 
 #### 1.3 Strutture avanzate
 
@@ -40,9 +40,9 @@
 
 ## PARTE 2
 
- ### 2. ESERCITAZIONE PARTE 1
+### 2. ESERCITAZIONE PARTE 1
 
-####2.1 ESERCIZI BASE
+#### 2.1 ESERCIZI BASE
 
 1. Scrivere un algoritmo che, dato il prezzo di un prodotto, calcoli il prezzo scontato del 20%.
 2. Scrivere un algoritmo che, dato il prezzo di un prodotto, applichi uno sconto del 12% se il prezzo è inferiore a € 30,00, del 25% altrimenti.
@@ -55,7 +55,7 @@
    1 e 4 e viene comunicato il prezzo relativo all'opzione scelta. Se il numero non è un'opzione valida
    viene mostrato un messaggio di errore.
 
-####2.2 ESERCIZI ARRAY
+#### 2.2 ESERCIZI ARRAY
 
 1. Dato un array di numeri: calcolare la media e la varianza dell'array.
 2. Dato un array di numeri casuali trovare il suo massimo e indicarne la posizione
@@ -64,7 +64,7 @@
 5. Dati due array scrivere un programma che calcoli l'unione dei due
 6. Dati due array scrivere un programma che calcoli la differenza tra i due
 
-####2.3 ESERCIZI FUNZIONI
+#### 2.3 ESERCIZI FUNZIONI
 
 1. Scrivere una funzione per ogni esercizio del paragrafo precedente
 2. Scrivere le funzioni precedenti utilizzando i metodi di utilità dell'oggetto Array
@@ -76,4 +76,4 @@
 2. Scrivere il programma 3 del paragrafo 2.1 utilizzando un oggetto prodotto contente le proprietà quantità e prezzo:
    - Dato poi un array di prodotti acquistati si calcoli il prezzo medio, la varianza e si trovi l'acquisto più costoso
    - Si ordini l'array delle vendite in ordine crescente per prezzo
-   - Trovare un prodotto e calcolare la somma delle sue vendites
+   - Trovare un prodotto e calcolare la somma delle sue vendite
