@@ -1,31 +1,29 @@
 # LEZIONE JAVASCRIPT 2
 
-## PARTE 1
+## 1. Programmazione JavaScript
 
-### 1. Programmazione JavaScript
-
-#### 1.1 Basi del linguaggio
+### 1.1 Basi del linguaggio
 
 - ~~Variabili let, const~~ 06/03/2019 
 - ~~Tipi di dato primitivi~~ 06/03/2019
 - ~~Strutture di controllo (if, else if, else, while, do while, for)~~ 06/03/2019
 
-#### ~~1.2 Traduzione esempi prima lezione da pseudocodice a Javascript~~ 06/03/2019
+### ~~1.2 Traduzione esempi prima lezione da pseudocodice a Javascript~~ 06/03/2019
 
-#### 1.3 Strutture avanzate
+### 1.3 Strutture avanzate
 
 - Tipi di dato complessi: **Array**
 - Tipi di dato complessi: **Oggetti** (proprietà, costruttori)
 - Strutture di controllo per tipi di dato complesse: (for…of, for…in)
 
-####1.4 Funzioni e Funzioni su oggetti (Metodi)
+### 1.4 Funzioni e Funzioni su oggetti (Metodi)
 
 - Funzioni (firma, parametri attuali e formali, chiamato e chiamante)
 - Javascript Funzioni come oggetti: funzioni anonime (linguaggio funzionale), callback e closures
 - Funzioni pure e non pure
 - Arrow function
 
-#### 1.5 Funzioni su oggetti
+### 1.5 Funzioni su oggetti
 
 - funzioni su array (forEach, map, filter, reduce)
   - Esempi
@@ -34,15 +32,8 @@
 - funzioni su Numeri
   - Esempi
 
-----
-
-### PAUSA
-
-## PARTE 2
-
-### 2. ESERCITAZIONE PARTE 1
-
-#### 2.1 ESERCIZI BASE
+## 2. ESERCIZI
+### 2.1 ESERCIZI BASE
 
 1. Scrivere un algoritmo che, dato il prezzo di un prodotto, calcoli il prezzo scontato del 20%.
 2. Scrivere un algoritmo che, dato il prezzo di un prodotto, applichi uno sconto del 12% se il prezzo è inferiore a € 30,00, del 25% altrimenti.
@@ -55,7 +46,7 @@
    1 e 4 e viene comunicato il prezzo relativo all'opzione scelta. Se il numero non è un'opzione valida
    viene mostrato un messaggio di errore.
 
-#### 2.2 ESERCIZI ARRAY
+### 2.2 ESERCIZI ARRAY
 
 1. Dato un array di numeri: calcolare la media e la varianza dell'array.
 2. Dato un array di numeri casuali trovare il suo massimo e indicarne la posizione
@@ -64,13 +55,13 @@
 5. Dati due array scrivere un programma che calcoli l'unione dei due
 6. Dati due array scrivere un programma che calcoli la differenza tra i due
 
-#### 2.3 ESERCIZI FUNZIONI
+### 2.3 ESERCIZI FUNZIONI
 
 1. Scrivere una funzione per ogni esercizio del paragrafo precedente
 2. Scrivere le funzioni precedenti utilizzando i metodi di utilità dell'oggetto Array
 3. Estendere le funzionalità dell'oggetto Array inserendo le funzionalità di calcolo media e varianza
 
-#### 2.4 ESERCIZI OGGETTI
+### 2.4 ESERCIZI OGGETTI
 
 1. Scrivere il programma 4 del paragrafo 2.1 utilizzando un oggetto Ticket contente le proprietà età, prezzo
 2. Scrivere il programma 3 del paragrafo 2.1 utilizzando un oggetto prodotto contente le proprietà quantità e prezzo:
