@@ -26,11 +26,8 @@
 ### 1.5 Funzioni su oggetti
 
 - funzioni su array (forEach, map, filter, reduce)
-  - Esempi
 - funzioni su Stringhe
-  - Esempi
 - funzioni su Numeri
-  - Esempi
 
 ## 2. ESERCIZI
 ### 2.1 ESERCIZI BASE
@@ -45,13 +42,16 @@
    3), per tutti gli altri 15 euro (opzione 4). Creare un programma in cui l’utente inserisce un numero tra
    1 e 4 e viene comunicato il prezzo relativo all'opzione scelta. Se il numero non è un'opzione valida
    viene mostrato un messaggio di errore.
+5. Scrivere un programma che calcoli li massimo comun divisore tra due numeri utilizzando l'algoritmo di Euclide (https://it.wikipedia.org/wiki/Algoritmo_di_Euclide)
+6. Scrivere un programma che calcoli il minimo comune multiplo tra due numeri utilizzando l'algoritmo di Euclide (https://it.wikipedia.org/wiki/Minimo_comune_multiplo)
+7. Scrivre un programma che dati due numeri (minimo e massimo) trovi i numeri primi dell'intervallo utilizzando il crivello di Eratostene (https://it.wikipedia.org/wiki/Crivello_di_Eratostene)
 
 ### 2.2 ESERCIZI ARRAY
 
 1. Dato un array di numeri: calcolare la media e la varianza dell'array.
 2. Dato un array di numeri casuali trovare il suo massimo e indicarne la posizione
 3. Dato un array di numeri casuali e un numero da ricercare al suo interno, trovare il numero cercato e restituire la sua posizione nel caso venga trovato "falso" altrimenti
-4. Dato un array di numeri casuali ordinarlo in modo crescente utilizzando il metodo bubble sort
+4. Dato un array di numeri casuali ordinarlo in modo crescente utilizzando il metodo Array.sort (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 5. Dati due array scrivere un programma che calcoli l'unione dei due
 6. Dati due array scrivere un programma che calcoli la differenza tra i due
 
