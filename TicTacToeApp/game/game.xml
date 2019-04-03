@@ -1,0 +1,12 @@
+<Page class="page game-page">
+  <ActionBar title="Gioco">
+    <ActionItem 
+      tap="onAddGame" 
+      android.systemIcon="ic_menu_add" 
+      android.position="actionBar" 
+    />
+  </ActionBar>
+  <StackLayout>
+    <Label text="Hello TicTacToe Game" />
+  </StackLayout>
+</Page>

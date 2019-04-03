@@ -1,0 +1,11 @@
+<TabView 
+  androidTabsPosition="bottom" 
+  selectedIndex="0"
+>
+  <TabViewItem title="Game">
+    <Frame id="game-frame" defaultPage="game/game" />  
+  </TabViewItem>
+  <TabViewItem title="Info">
+    <Frame id="info-frame" defaultPage="about/about" />
+  </TabViewItem>
+</TabView>

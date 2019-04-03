@@ -1,0 +1,7 @@
+<Page class="modal modal-addgame">
+  <ActionBar title="Add Game"></ActionBar>
+  <StackLayout>
+    <Label text="Hello add game" />
+    <Button text="add" tap="onAdd" />
+  </StackLayout>
+</Page>

@@ -1,0 +1,8 @@
+<Page class="page about-page">
+  <ActionBar title="About TicTacToe"></ActionBar>
+  <StackLayout>
+    <Label text="Ciao TicoTacToe" />
+    <Label textWrap="true" text="Questo gioco è stato creato durante il corso di AppAndroid" />
+    <Button text="Contatti" tap="onTap" />
+  </StackLayout>
+</Page>
