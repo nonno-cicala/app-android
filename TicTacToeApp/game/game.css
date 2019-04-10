@@ -1,0 +1,21 @@
+.odd {
+  background-color: #cccccc;  
+}
+
+.even {
+  background-color: #aaaaaa;
+}
+
+.O {
+  background-image: url("~/O.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.X {
+  background-image: url("~/X.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}

@@ -1,4 +1,4 @@
-<Page class="page game-page">
+<Page class="page game-page" navigatingTo="onNavigatingTo">
   <ActionBar title="Gioco">
     <ActionItem 
       tap="onAddGame" 
@@ -6,7 +6,5 @@
       android.position="actionBar" 
     />
   </ActionBar>
-  <StackLayout>
-    <Label text="Hello TicTacToe Game" />
-  </StackLayout>
+  <GridLayout columns="*, *, *" rows="*, *, *" id="game-board"></GridLayout>
 </Page>
