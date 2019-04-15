@@ -1,0 +1,7 @@
+<Page class="page game-page" navigatingTo="onLoad">
+  <ActionBar title="Gioco Terminato"></ActionBar>
+  <StackLayout>
+    <Label class="h1" id="final-text" />
+    <Button text="Nuova Partita" tap="onTap" />
+  </StackLayout>
+</Page>
