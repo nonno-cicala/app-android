@@ -15,12 +15,42 @@ const onMove = function (args) {
   createBoard(page)
   if (isTerminal(page.bindingContext.board)) {
     if(whoWin('X')(page.bindingContext.board)) {
-      alert('X Vince')
+      page.frame.navigate({
+        moduleName: 'game/final',
+        context: { text: 'X Vince' }
+      })
     } else if (whoWin('O')(page.bindingContext.board)) {
-      alert('O Vince')
+      page.frame.navigate({
+        moduleName: 'game/final',
+        context: { text: 'O Vince' }
+      })
     } else {
-      alert('Pareggio')
+      page.frame.navigate({
+        moduleName: 'game/final',
+        context: { text: 'Pareggio' }
+      })
     }
+  } else {
+    // AI Move
+    console.log('AI Move')
+    const httpModule = require('http')
+    httpModule.request({
+      url: 'https://cpw.sonofrio.com/ai/api/ai/move',
+      //url: 'http://192.168.1.25:8080/api/ai/move',
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      content: JSON.stringify({
+        level: 'random',
+        board: page.bindingContext.board
+      })
+    })
+    .then(response => response.content.toJSON())
+    .then(board => {
+      console.log(board)
+      page.bindingContext = createGameViewModel(board, nextTurn === 'X' ? 'O' : 'X')
+    })
+    .then(() => createBoard(page))
+    .catch(e => console.log(e))
   }
 }
 
