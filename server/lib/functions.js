@@ -7,4 +7,10 @@ const trace = label => value => {
   return value
 }
 
-module.exports = { compose, pipe, trace }
+const printBoard = (board) => {
+  for (let index = 0; index < 3; index++) {
+    console.log(board.slice(index * 3, (index + 1) * 3))
+  }
+}
+
+module.exports = { compose, pipe, trace, printBoard }

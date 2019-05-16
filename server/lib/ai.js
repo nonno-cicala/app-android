@@ -9,7 +9,6 @@ const score = board => {
   if (whoWin(board)('X')) {
     return -1000
   } else if (whoWin(board)('O')) {
-    console.log(board, 1000, whoWin(board)('X'))
     return 1000
   }
   return 0
@@ -28,16 +27,16 @@ const minMax = (board, player) => {
     return score(board)
   } else {
     const movements = nextBoards(board)
-    let bestMove = player === 'O' ? -1000 : 1000
+    let bestMove = player === 'O' ? 1000 : -1000
     movements.forEach(next => {
       let nextPlayer = player === 'O' ? 'X' : 'O'
       let score = minMax(next, nextPlayer)
       if (nextPlayer === 'O') {
-        if(score < bestMove) {
+        if (score > bestMove) {
           bestMove = score
         }
       } else {
-        if (score > bestMove) {
+        if (score < bestMove) {
           bestMove = score
         }
       }
@@ -55,10 +54,6 @@ const master = pipe(
       else if (a.score < b.score) return 1
       else return 0
     }),
-  movements => {
-    console.log(movements)
-    return movements
-  },
   choices => choices.slice(0, 1)
     .reduce((a, c) => a.board = c.board, {})
 )

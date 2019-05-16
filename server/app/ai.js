@@ -4,10 +4,10 @@ const { blind, master, human } = require('../lib/ai')
 
 const movement = [
   (req, res, next) => {
-    if (!req.body.level) return next(new Error('No level setted'))
-    if (!req.body.board) return next(new Error('No board setted'))
+    if (!req.body.level) return next(new Error('No level set'))
+    if (!req.body.board) return next(new Error('No board set'))
     const { level, board } = req.body
-    const m = level === 'blind'
+    const m = level === 'random'
       ? blind(board)
       : level === 'human'
         ? human(board)

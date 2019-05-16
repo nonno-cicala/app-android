@@ -64,6 +64,7 @@ const emptyCells = board => board.reduce(
  * @return {Boolean} board's state
  */
 const isTerminal = board => {
+  if (emptyCells(board).length === 0) return true
   if ([0, 1, 2].some(row => rowCheck(board)(row))) return true
   if ([0, 1, 2].some(col => columnCheck(board)(col))) return true
   if (diagonalLeftCheck(board)) return true
@@ -84,8 +85,6 @@ const countMove = board => symbol => board.reduce(
   0
 )
 
-const turn = board => countMove(board)('X') === 0 && countMove(board)('O') === 0
-  ? 'O'
-  : countMove(board)('O') > countMove(board)('X') ? 'X' : 'O'
+const turn = board => countMove(board)('O') === countMove(board)('X') ? 'X' : 'O'
 
 module.exports = { isTerminal, emptyCells, whoWin, countMove, turn }
